@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                 ('email', models.EmailField(max_length=254)),
                 ('comentario', models.TextField(blank=True, default='')),
                 ('avaliacao', models.DecimalField(decimal_places=1, max_digits=2)),
-                ('curso', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='avaliacoes', to='cursos.Curso')),
+                ('curso', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='avaliacoes', to='api.Curso')),
             ],
             options={
                 'verbose_name': 'Avaliação',

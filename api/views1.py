@@ -2,8 +2,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-from cursos.models import Curso, Avaliacao
-from cursos.serializers import CursoSerializer, AvaliacaoSerializer
+from api.models import Curso, Avaliacao
+from api.serializers import CursoSerializer, AvaliacaoSerializer
 
 
 class CursoAPIView(APIView):

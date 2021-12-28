@@ -2,7 +2,7 @@ from django.urls import path
 
 from rest_framework.routers import SimpleRouter
 
-from cursos.views import (
+from api.views import (
     CursoAPIView,
     AvaliacaoAPIView,
     CursosAPIView,

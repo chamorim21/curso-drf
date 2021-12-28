@@ -8,9 +8,9 @@ from rest_framework import mixins
 
 from rest_framework import permissions
 
-from cursos.models import Curso, Avaliacao
-from cursos.serializers import CursoSerializer, AvaliacaoSerializer
-from cursos.permissions import IsSuperUser
+from api.models import Curso, Avaliacao
+from api.serializers import CursoSerializer, AvaliacaoSerializer
+from api.permissions import IsSuperUser
 
 """
 API V1
